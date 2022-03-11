@@ -1,0 +1,37 @@
+2022-03-11 10:53:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 10:53:45 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-03-11 10:53:45 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 10:53:45 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-03-11 12:43:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 12:43:32 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-03-11 12:43:32 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 12:43:32 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-03-11 12:45:02 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 12:45:12 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1112758237
+2022-03-11 12:45:15 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 12:45:15 [INFO ] [Base] - [closeBrowser] Scenario Status is: passed
+2022-03-11 13:45:18 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:45:18 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 13:45:25 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started859123506
+2022-03-11 13:45:32 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:45:32 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 13:48:45 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:48:45 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 13:48:51 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started859123506
+2022-03-11 13:48:59 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:48:59 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 13:58:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:58:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 13:58:16 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started612693043
+2022-03-11 13:58:20 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 13:58:20 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 14:09:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 14:09:24 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 14:09:30 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1764291958
+2022-03-11 14:09:33 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 14:09:33 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 15:35:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 15:35:24 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 15:35:52 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started164439551
+2022-03-11 15:35:56 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 15:35:56 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed

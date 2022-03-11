@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.309375">
+<testcase classname="Registration functionality scenarios" name="Verify whether the user is able to register into the application by providing all the fields" time="33.309375">
+<system-out><![CDATA[Given I launch the application..............................................passed
+And I navigate to Account Registration page.................................passed
+When I provide all the below valid details..................................passed
+And I select the Privacy Policy.............................................passed
+And I click on Continue button..............................................passed
+Then I should see that the User Account has successfully created............passed
+]]></system-out>
+</testcase>
+</testsuite>
