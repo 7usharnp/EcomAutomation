@@ -35,3 +35,125 @@
 2022-03-11 15:35:52 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started164439551
 2022-03-11 15:35:56 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
 2022-03-11 15:35:56 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 17:32:40 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:32:40 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 17:32:45 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2142893855
+2022-03-11 17:33:25 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:33:25 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-11 17:35:09 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:35:09 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 17:35:17 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1364127192
+2022-03-11 17:35:54 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:35:54 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-11 17:40:31 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:40:31 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 17:40:38 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started124494140
+2022-03-11 17:40:45 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:40:45 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-11 17:42:37 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:42:37 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-11 17:42:44 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started403598020
+2022-03-11 17:42:51 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-11 17:42:51 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 11:52:08 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 11:52:08 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 11:52:14 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started403598020
+2022-03-14 11:52:28 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 11:52:28 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 11:52:29 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 11:52:29 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 11:52:33 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started682981033
+2022-03-14 11:52:46 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 11:52:46 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-03-14 12:21:26 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:21:26 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:21:30 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1611221523
+2022-03-14 12:21:37 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:21:37 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 12:37:45 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:37:45 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:37:50 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1611221523
+2022-03-14 12:37:57 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:37:57 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 12:38:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 12:38:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:38:39 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1535116392
+2022-03-14 12:38:46 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 12:38:46 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 12:38:46 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:38:46 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:38:49 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started347791431
+2022-03-14 12:38:56 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:38:56 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 12:40:49 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 12:40:49 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:40:52 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1535116392
+2022-03-14 12:40:59 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2022-03-14 12:40:59 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 12:41:00 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:41:00 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 12:41:02 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started347791431
+2022-03-14 12:41:07 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 12:41:07 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 13:11:00 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:11:00 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:11:03 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1611221523
+2022-03-14 13:11:08 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:11:08 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 13:12:31 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:12:31 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:12:35 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1611221523
+2022-03-14 13:12:40 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:12:40 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 13:20:09 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:20:09 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:20:13 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1611221523
+2022-03-14 13:20:19 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is allowed or not to register on skipping mandatory fields
+2022-03-14 13:20:19 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 13:25:32 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:25:32 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:25:37 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started473073770
+2022-03-14 13:25:42 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:25:42 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-03-14 13:35:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:35:24 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:35:31 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1933328958
+2022-03-14 13:35:37 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:35:37 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-03-14 13:37:59 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:37:59 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-03-14 13:39:04 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:39:04 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:39:09 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1933328958
+2022-03-14 13:39:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:39:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-03-14 13:40:23 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:40:23 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 13:40:28 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started473073770
+2022-03-14 13:40:35 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into application by opting for Newsletter subscription
+2022-03-14 13:40:35 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 14:06:15 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:06:15 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 14:06:22 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1523510420
+2022-03-14 14:06:32 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:06:32 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-03-14 14:10:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:10:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 14:10:40 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1523510420
+2022-03-14 14:10:47 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:10:47 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 14:11:25 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:11:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 14:11:33 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1746257394
+2022-03-14 14:11:39 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:11:39 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-03-14 14:17:25 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:17:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 14:17:32 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1746257394
+2022-03-14 14:17:40 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:17:40 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-03-14 14:27:04 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:27:04 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-03-14 14:27:12 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1523510420
+2022-03-14 14:27:23 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2022-03-14 14:27:23 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
