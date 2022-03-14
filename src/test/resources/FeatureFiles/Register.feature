@@ -35,7 +35,7 @@ Feature: Registration functionality scenarios
     And I click on Continue button
    Then I should see that the User Account has successfully created
 
-   @Two
+   
    Scenario: Verify whether the user is restricted from creating a duplicate account
     Given I launch the application
     And I navigate to Account Registration page

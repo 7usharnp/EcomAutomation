@@ -51,6 +51,8 @@ public class RegisterPage {
    @FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
    public static WebElement duplicationMsg;
    
+ 
+   
 	public RegisterPage() {
 		PageFactory.initElements(Base.driver, this);
 	}

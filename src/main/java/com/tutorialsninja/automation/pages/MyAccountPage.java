@@ -6,18 +6,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.tutorialsninja.automation.base.Base;
 
-public class HeaderSection {
-
-	@FindBy(xpath="//span[normalize-space()='My Account']")
-	public static WebElement myAccountLink;
+public class MyAccountPage {
 	
-	@FindBy(linkText="Register")
-	public static WebElement register;
+	@FindBy(linkText = "Account")
+	public static WebElement accountLink;
 	
-	@FindBy(linkText="Login")
-	public static WebElement Login;
-	
-	public HeaderSection() {
+	public MyAccountPage() {
 		PageFactory.initElements(Base.driver, this);
 	}
+
 }

@@ -1,11 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.638912">
-<testcase classname="Registration functionality scenarios" name="Verify whether the user is restricted from creating a duplicate account" time="19.638912">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="44.155312">
+<testcase classname="Login Functionality Feature" name="Verify whether the user is able to login with valid credentials" time="14.182793">
 <system-out><![CDATA[Given I launch the application..............................................passed
-And I navigate to Account Registration page.................................passed
-When I provide all the below valid details..................................passed
-And I select the Privacy Policy.............................................passed
-And I click on Continue button..............................................passed
-Then I should see user is restricted from creating duplicate account........passed
+And I navigate to login page................................................passed
+When I Login to application using username "tusharnangre5446@gmail.com" and password "tushar1234".passed
+Then I should see that user is able to login successfully...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality Feature" name="Verify whether user is able to login with invalid credentials" time="10.872847">
+<system-out><![CDATA[Given I launch the application..............................................passed
+And I navigate to login page................................................passed
+When I Login to application using username "tusharnangre5446@gmail.com" and password "tushartest".passed
+Then I should see validation message for incorrect credentials..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality Feature" name="Verify whether user is able to login without providing credentials" time="9.198376">
+<system-out><![CDATA[Given I launch the application..............................................passed
+And I navigate to login page................................................passed
+When I Login to application using username "" and password ""...............passed
+Then I should see validation message for incorrect credentials..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality Feature" name="Verify whether user is able to reset the forgotten password" time="9.901296">
+<system-out><![CDATA[Given I launch the application..............................................passed
+And I navigate to login page................................................passed
+When I reset the forgotten password for email "tusharnangre5446@gmail.com"..passed
+Then I should see a message informing the user that information related to resetting password have been sent to email address.passed
 ]]></system-out>
 </testcase>
 </testsuite>
