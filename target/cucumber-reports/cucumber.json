@@ -6,97 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6101234100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "Verify whether the user is able to login with valid credentials",
-        "description": "",
-        "id": "login-functionality-feature;verify-whether-the-user-is-able-to-login-with-valid-credentials",
-        "after": [
-          {
-            "result": {
-              "duration": 781870700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3479167000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I launch the application",
-            "match": {
-              "location": "Register.i_launch_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1052063700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I navigate to login page",
-            "match": {
-              "location": "Login.i_navigate_to_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2686027300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I Login to application using username \"tusharnangre5446@gmail.com\" and password \"tushar1234\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "tusharnangre5446@gmail.com",
-                  "offset": 39
-                },
-                {
-                  "val": "tushar1234",
-                  "offset": 81
-                }
-              ],
-              "location": "Login.i_login_to_application_using_username_something_and_password_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 82429800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I should see that user is able to login successfully",
-            "match": {
-              "location": "Login.i_should_see_that_user_is_able_to_login_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4635859900,
+              "duration": 4127453500,
               "status": "passed"
             },
             "match": {
@@ -105,13 +15,13 @@
           }
         ],
         "line": 9,
-        "name": "Verify whether user is able to login with invalid credentials",
+        "name": "Verify whether user is informed when product being searched is not available",
         "description": "",
-        "id": "login-functionality-feature;verify-whether-user-is-able-to-login-with-invalid-credentials",
+        "id": "search-functionality-feature;verify-whether-user-is-informed-when-product-being-searched-is-not-available",
         "after": [
           {
             "result": {
-              "duration": 723364700,
+              "duration": 744117400,
               "status": "passed"
             },
             "match": {
@@ -124,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3846757900,
+              "duration": 3408841800,
               "status": "passed"
             },
             "line": 10,
@@ -136,233 +46,53 @@
           },
           {
             "result": {
-              "duration": 946895600,
+              "duration": 902750600,
               "status": "passed"
             },
             "line": 11,
-            "name": "I navigate to login page",
+            "name": "I search for a product \"Apple iphone\"",
             "match": {
-              "location": "Login.i_navigate_to_login_page()"
+              "arguments": [
+                {
+                  "val": "Apple iphone",
+                  "offset": 24
+                }
+              ],
+              "location": "Search.i_search_for_a_product(String)"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 666814900,
+              "duration": 116634500,
               "status": "passed"
             },
             "line": 12,
-            "name": "I Login to application using username \"tusharnangre5446@gmail.com\" and password \"tushartest\"",
+            "name": "I should see \"There is no product that matches the search criteria.\" message",
             "match": {
               "arguments": [
                 {
-                  "val": "tusharnangre5446@gmail.com",
-                  "offset": 39
-                },
-                {
-                  "val": "tushartest",
-                  "offset": 81
+                  "val": "There is no product that matches the search criteria.",
+                  "offset": 14
                 }
               ],
-              "location": "Login.i_login_to_application_using_username_something_and_password_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 53153600,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I should see validation message for incorrect credentials",
-            "match": {
-              "location": "Login.i_should_see_validation_message_for_incorrect_credentials()"
+              "location": "Search.i_should_see_message(String)"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2315636800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
         ],
-        "line": 16,
-        "name": "Verify whether user is able to login without providing credentials",
-        "description": "",
-        "id": "login-functionality-feature;verify-whether-user-is-able-to-login-without-providing-credentials",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 843253700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3770111800,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I launch the application",
-            "match": {
-              "location": "Register.i_launch_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1328154200,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I navigate to login page",
-            "match": {
-              "location": "Login.i_navigate_to_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 865172100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I Login to application using username \"\" and password \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 39
-                },
-                {
-                  "val": "",
-                  "offset": 55
-                }
-              ],
-              "location": "Login.i_login_to_application_using_username_something_and_password_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 76047600,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I should see validation message for incorrect credentials",
-            "match": {
-              "location": "Login.i_should_see_validation_message_for_incorrect_credentials()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2208739600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Verify whether user is able to reset the forgotten password",
-        "description": "",
-        "id": "login-functionality-feature;verify-whether-user-is-able-to-reset-the-forgotten-password",
-        "after": [
-          {
-            "result": {
-              "duration": 733314200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.closeBrowser(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3406357600,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I launch the application",
-            "match": {
-              "location": "Register.i_launch_the_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1203125800,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I navigate to login page",
-            "match": {
-              "location": "Login.i_navigate_to_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2289038400,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I reset the forgotten password for email \"tusharnangre5446@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "tusharnangre5446@gmail.com",
-                  "offset": 42
-                }
-              ],
-              "location": "Login.i_reset_the_forgotten_password_for_email(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 60720800,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I should see a message informing the user that information related to resetting password have been sent to email address",
-            "match": {
-              "location": "Login.i_should_see_a_message_informing_the_user_that_information_related_to_resetting_password_have_been_sent_to_email_address()"
-            },
-            "keyword": "Then "
+            "line": 8,
+            "name": "@Two"
           }
         ]
       }
     ],
-    "name": "Login Functionality Feature",
+    "name": "Search functionality feature",
     "description": "",
-    "id": "login-functionality-feature",
+    "id": "search-functionality-feature",
     "keyword": "Feature",
-    "uri": "FeatureFiles/Login.feature"
+    "uri": "FeatureFiles/Search.feature"
   }
 ]
