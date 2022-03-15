@@ -34,7 +34,7 @@ public class Login {
 
 	@Then("^I should see that user is able to login successfully$")
 	public void i_should_see_that_user_is_able_to_login_successfully() {
-		Assert.assertEquals(Elements.getText(MyAccountPage.accountLink), "Account");
+		Assert.assertEquals(Elements.getText(HeaderSection.accountLink), "Account");
 	}
 
 	@Then("^I should see validation message for incorrect credentials$")

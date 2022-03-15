@@ -7,11 +7,18 @@ import org.openqa.selenium.support.PageFactory;
 import com.tutorialsninja.automation.base.Base;
 import com.tutorialsninja.automation.framework.Elements;
 
-public class MyAccountPage {
-		
-    
-	public MyAccountPage() {
+public class ShoppingCartPage {
+	
+	@FindBy(linkText="Checkout")
+	public static WebElement checkoutBtn;
+	
+	public ShoppingCartPage() {
 		PageFactory.initElements(Base.driver, this);
 	}
+	
+	public static void ClickcheckOutBtn() {
+		Elements.click(checkoutBtn);
+	}
+	
 
 }

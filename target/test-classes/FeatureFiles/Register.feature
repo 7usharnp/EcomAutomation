@@ -1,5 +1,6 @@
 Feature: Registration functionality scenarios
 
+@Register
   Scenario: Verify whether the user is able to register into the application by providing all the fields
     Given I launch the application
     And I navigate to Account Registration page
@@ -20,7 +21,7 @@ Feature: Registration functionality scenarios
     Then I should see that the user Account is not created
     And I should see error message informing the user to fill the mandatory fields
 
-  
+  @Register
   Scenario: Verify whether the user is able to register into application by opting for Newsletter subscription
     Given I launch the application
     And I navigate to Account Registration page

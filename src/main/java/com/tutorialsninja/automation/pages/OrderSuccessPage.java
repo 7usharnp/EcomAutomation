@@ -6,17 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.tutorialsninja.automation.base.Base;
 
-public class SearchPage {
+public class OrderSuccessPage {
 	
-	@FindBy(linkText="Samsung SyncMaster 941BW")
-	public static WebElement samsungSyncMarsterSearchResult;
+	@FindBy(linkText="Success")
+	public static WebElement succuessBreadcrumb;
 	
-	@FindBy(css="input[id='button-search']+h2+p")
-	public static WebElement noProductFound;
 	
-	public SearchPage() {
+	public OrderSuccessPage() {
 		PageFactory.initElements(Base.driver, this);
 	}
+	
 	
 
 }

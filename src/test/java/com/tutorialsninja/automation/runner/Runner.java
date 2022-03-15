@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = { "classpath:FeatureFiles/" }, glue = {
 		"classpath:com.tutorialsninja.automation.stepdef" }, plugin = { "html:target/cucumber-html-report",
 				"json:target/cucumber-reports/cucumber.json",
-				"junit:target/cucumber-reports/cucumber.xml", }, monochrome = true , tags = { "@Two" } )
+				"junit:target/cucumber-reports/cucumber.xml", }, monochrome = true , tags = { "@Two","~@Register" } )
 public class Runner {
 
 }

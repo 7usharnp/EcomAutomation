@@ -1,5 +1,6 @@
 Feature: Login Functionality Feature
 
+
   Scenario: Verify whether the user is able to login with valid credentials
     Given I launch the application
     And I navigate to login page
